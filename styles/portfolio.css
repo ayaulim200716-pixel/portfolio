@@ -1,0 +1,58 @@
+.portfolio {
+    padding: 100px 0;
+}
+
+.portfolio__title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 900;
+    background: linear-gradient(to right, #172774, #002265);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: .1em;
+}
+
+.container span:not(.portfolio__title) {
+    font-weight: 400;
+}
+
+.portfolio__cards {
+
+
+}
+
+
+.portfolio__card {
+
+}
+
+
+.cards {
+    margin-top: 50px;
+    display: flex;
+    width: 347px;
+    height: 266px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio__logo {
+    margin: 20px 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.portfolio__name {
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--co-p);
+}
+
+.portfolio__preview {
+    position: absolute;
+    top: 1590px;
+    left: 75px;
+}
+
+.portfolio__card-img {
+}
