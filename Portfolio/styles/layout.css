@@ -1,0 +1,52 @@
+.layout {
+    padding: 100px 0;
+}
+
+.layout__title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    background: linear-gradient( to right, #4b5ff1, #120202);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: .1em;
+}
+
+.layout__cards {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+}
+
+.card {
+    width: 350px;
+    height: 280px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 12px rgba(0, 0, 0, 0.2);
+
+}
+
+.card__title {
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.card span:not(.card__title) {
+    font-weight: 400;
+}
+
+.card__desc {
+    margin:-15px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.layout__card-img {
+    width: 220px;
+    height: 165px;
+    object-fit: cover;
+}
